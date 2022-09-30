@@ -7,7 +7,7 @@ function randomValueFromArray(array){ //引数でとった配列からランダ�
   return array[random];
 }
 
-const storyText = '気温華氏40度で外は寒かった。:insertx:は散歩に出かけた。:inserty:に着いた。:insertz:体重300ポンドの:insertx:は驚いたが、ボブは驚かなかった。:inserty:ではよくあることだった。' //不変部分のストーリー
+const storyText = '気温華氏40度で外は寒かった。:insertx:は散歩に出かけた。:inserty:に着いた。:insertz:。体重300ポンドの:insertx:は驚いたが、ボブは驚かなかった。:inserty:ではよくあることだった。' //不変部分のストーリー
 const insertX=['山田','田中','豚'] //名前(自分以外)
 const insertY=['アメリカ','大学','精肉工場'] //目的地
 const insertZ=['訳の分からない言語が聞こえた','授業に参加した','鉄分の匂いがした'] //目的地の状況(文章)
